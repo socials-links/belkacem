@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.95, maximum-scale=0.95, user-scalable=no">
-    <title>التميز للخدمات الادارية العامة | Al-Tamayuz</title>
+    <title>المتميز للخدمات العامة | Al-Mutamayez</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -153,12 +153,12 @@ body {
             opacity: 0;
             transform: translateY(20px);
             animation: fadeInUp 1s forwards 0.8s;
-            max-width: 600px;
+            max-width: 300px;
         }
 
         .scroll-indicator {
             position: absolute;
-            bottom: 30px;
+            bottom: 20px;
             opacity: 0.5;
             animation: bounce 2s infinite;
         }
@@ -166,22 +166,22 @@ body {
         /* --- Social Media Section --- */
         .section-container {
             padding: 100px 5% 50px;
-            max-width: 1200px;
+            max-width: 500px;
             margin: 0 auto;
         }
 
         .social-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 10px;
+            gap:2px;
         }
 
         .social-card {
             background: var(--glass-bg);
             border: 1px solid var(--glass-border);
             backdrop-filter: blur(15px);
-            border-radius: 24px;
-            padding: 30px;
+            border-radius: 20px;
+            padding: 10px;
             display: flex;
             align-items: center;
             text-decoration: none;
@@ -211,13 +211,13 @@ body {
         }
 
         .social-icon {
-            width: 50px;
-            height: 50px;
-            border-radius: 18px;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 1.5rem;
+            font-size: 1rem;
             margin-left: 20px;
             background: rgba(255,255,255,0.03);
             border: 1px solid var(--glass-border);
@@ -233,11 +233,11 @@ body {
 
         .social-info h3 {
             font-family: 'Cairo';
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             color: var(--text-primary);
         }
         .social-info p {
-            font-size: 1rem;
+            font-size: 0.9rem;
             color: var(--text-secondary);
         }
 
@@ -331,7 +331,7 @@ body {
         <div class="logo-container">
             <div class="glass-orb"></div>
             <!-- LOGO PLACEHOLDER - Replace src with actual logo file -->
-<img src="logo.png" alt="التميز للخدمات العامة" class="logo-main">>
+<img src="logo.png" alt="المتميز للخدمات العامة" class="logo-main">>
         </div>
         <h2 class="hero-subtitle">
             خدمات إلكترونية • طباعة • تعبئة • مختلف الخدمات الإدارية
@@ -380,15 +380,32 @@ body {
                 </div>
             </a>
 
-            <!-- Phone Call -->
-            <a href="tel:0771205473" class="social-card">
-                <div class="social-icon"><i class="fa-solid fa-phone-volume"></i></div>
-                <div class="social-info">
-                    <h3>اتصل بنا</h3>
-                    <p>خدمة العملاء جاهزة للرد عليكم</p>
-                </div>
-            </a>
-        </div>
+<!-- First Phone Number -->
+<a href="tel:0771205473" class="social-card">
+    <div class="social-icon"><i class="fa-solid fa-phone-volume"></i></div>
+    <div class="social-info">
+        <h3>اتصل بنا (الرقم الأول)</h3>
+        <p>خدمة العملاء جاهزة للرد عليكم</p>
+    </div>
+</a>
+
+<!-- Second Phone Number -->
+<a href="tel:0541160342" class="social-card">
+    <div class="social-icon"><i class="fa-solid fa-phone-volume"></i></div>
+    <div class="social-info">
+        <h3>اتصل بنا (الرقم الثاني)</h3>
+        <p>متاحون للاستفسارات السريعة</p>
+    </div>
+</a>
+
+<!-- Email Contact -->
+<a href="mailto:khadamatsidiaissa01@gmail.com" class="social-card">
+    <div class="social-icon"><i class="fa-solid fa-envelope"></i></div>
+    <div class="social-info">
+        <h3>البريد الإلكتروني</h3>
+        <p>أرسل لنا ملفاتك أو استفساراتك</p>
+    </div>
+</a>
 
         <!-- Info Section -->
         <div class="info-section">
